@@ -3,8 +3,8 @@
 void print_user_prompt(char * prompt);
 
 int main ( int argc, char * argv[] ) {
-  int file_input = 0;     // boolean tracking whether input is from file
-  FILE *file;             // file pointer to pull input from
+  int file_input = 0;            // boolean tracking whether input is from file
+  FILE *file;                    // file pointer to pull input from
   char * prompt = "o-o>>";       // vanity prompt
 
   // Handle command-line arguments
